@@ -16,13 +16,8 @@
 
 namespace BigML;
 
-if (!class_exists('modelfields')) {
-   include('modelfields.php'); 
-}
-
-if (!class_exists('anomalytree')) {
-   include('anomalytree.php'); 
-} 
+use BigML\modelfields;
+use BigML\anomalytree;
 
 /*
 
