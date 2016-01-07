@@ -1,0 +1,10 @@
+{
+  "name": "webtales/bigml-php",
+  "description": "PHP Client for Bigml",
+  "keywords": ["ml","client", "bigml"],
+  "autoload": {
+    "psr-4": {
+      "BigML\\": "bigml/"
+    }
+  }
+}
