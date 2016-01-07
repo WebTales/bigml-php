@@ -16,9 +16,7 @@
 
 namespace BigML;
 
-if (!class_exists('predicates')) {
-    use BigML\predicates;       
-} 
+use BigML\predicates;       
 
 /*
 
