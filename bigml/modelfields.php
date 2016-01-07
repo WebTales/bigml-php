@@ -21,6 +21,8 @@
    is used for local predictions.
 */
 
+namespace BigML;
+
 function strip_affixes($value, $field) 
 {
    /*
