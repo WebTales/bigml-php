@@ -14,12 +14,9 @@
 # License for the specific language governing permissions and limitations
 # under the License.
 
-if (!class_exists('modelfields')) {
-   include('modelfields.php');
-}
-if (!class_exists('centroid')) {
-   include('centroid.php'); 
-}
+namespace BigML;
+use BigML\modelfields.php;
+use BigML\centroid.php; 
 
 function parse_terms($text, $case_sensitive=true) {
    /*
