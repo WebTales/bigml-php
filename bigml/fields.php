@@ -21,6 +21,8 @@
    is used for local predictions.
 */
 
+namespace BigML;
+
 function get_fields_structure($resource) {
    /*
     Returns the field structure for a resource, its locale and missing_tokens
