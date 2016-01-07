@@ -14,8 +14,10 @@
 # License for the specific language governing permissions and limitations
 # under the License.
 
+namespace BigML;
+
 if (!class_exists('predicates')) {
-   include('predicates.php');       
+    use BigML\predicates;       
 } 
 
 /*
