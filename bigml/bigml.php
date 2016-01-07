@@ -18,6 +18,8 @@
 
 # This is a simple binding to BigML.io, the BigML API.
 
+namespace BigML;
+
 class BigML {
    const BIGML_ENDPOINT = "https://bigml.io";
    const ONLY_MODEL = "only_model=true;limit=-1;"; 
