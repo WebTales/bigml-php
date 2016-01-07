@@ -13,9 +13,11 @@
 # WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
 # License for the specific language governing permissions and limitations
 # under the License.
-include('basemodel.php'); 
- #include('./predicate.php');
-include('tree.php');
+
+namespace BigML;
+
+use BigML\basemodel.php;
+use BigML\tree.php;
 
 class Model extends BaseModel{
    /*
