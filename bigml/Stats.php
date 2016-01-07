@@ -1,5 +1,7 @@
 <?php
 
+namespace BigML;
+
 /**
  * Stats class
  * 
