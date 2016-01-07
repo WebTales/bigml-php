@@ -14,6 +14,8 @@
 # License for the specific language governing permissions and limitations
 # under the License.
 
+namespace BigML;
+
 function plural($text, $num) {
     /*
       Pluralizer: adds "s" at the end of a string if a given number is > 1
