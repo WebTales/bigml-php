@@ -14,9 +14,8 @@
 # License for the specific language governing permissions and limitations
 # under the License.
 
-if (!class_exists('model')) {
-   include('model.php');
-}
+namespace BigML;
+use BigML\model;
 
 function read_votes($votes_files, $model, $data_locale=null)
 {
