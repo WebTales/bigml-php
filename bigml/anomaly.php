@@ -14,6 +14,8 @@
 # License for the specific language governing permissions and limitations
 # under the License.
 
+namespace BigML;
+
 if (!class_exists('modelfields')) {
    include('modelfields.php'); 
 }
