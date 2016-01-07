@@ -14,21 +14,12 @@
 # License for the specific language governing permissions and limitations
 # under the License.
 
-if (!class_exists('predicate')) {
-   include('predicate.php'); 
-}
+namespace BigML;
 
-if (!class_exists('multivote')) {
-   include('multivote.php'); 
-}
-
-if (!class_exists('ChiSquare')) {
-   include('ChiSquare.php'); 
-}
-
-if (!class_exists('Prediction')) {
-   include('prediction.php');
-}
+use BigML\predicate; 
+use BigML\multivote.php; 
+use BigML\ChiSquare.php; 
+use BigML\prediction.php;
 
 function get_instances($distribution) {
    /*
