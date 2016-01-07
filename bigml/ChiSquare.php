@@ -1,6 +1,10 @@
 <?php
-include('ProbabilityDistribution.php');
-include('Stats.php');
+
+namespace BigML;
+
+use BigML\ProbabilityDistribution
+use BigML\Stats.php
+
 /**
  * ChiSquare class
  * 
